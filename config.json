@@ -1,0 +1,21 @@
+{
+  "multi-process" : "4",
+  "weatherapi" : "qweather.com申请api",
+  "weixin" : {
+    "url" : "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=用自己的",
+    "title": "交换机巡检多线程版",
+    "url2": "90apt.com",
+    "picurl": "用自己的图片"
+
+  },
+  "redis" : {
+    "host": "自己的redis数据库IP",
+    "port": "端口",
+    "password": "密码",
+    "decode": "True"
+  },
+  "data" : [
+    {"device_type" : "hp_comware_telnet" , "ip" : "172.16.1.1" , "username" : "admin" , "password" : "passwd" , "port" : "23"},
+    {"device_type" : "hp_comware_telnet" , "ip" : "172.16.1.2" , "username" : "admin" , "password" : "passwd" , "port" : "23"}
+  ]
+}
